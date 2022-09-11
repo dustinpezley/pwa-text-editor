@@ -29,19 +29,20 @@ module.exports = () => {
       new WebpackPwaManifest({
         name: 'Just Another Text Editor',
         short_name: 'J.A.T.E.',
-        description: 'PWA text editor',
+        description: 'Takes notes with JavaScript highlighting',
         background_color: '#7eb4e2',
         theme_color: '#7eb4e2',
         start_url: './',
         publicPath: './',
+        fingerprints: false,
         icons: [
           {
-            src: path.resolve('src/images/icon-manifest.png'),
+            src: path.resolve('src/images/logo.png'),
             sizes: [96, 128, 192, 256, 384, 512],
             destination: path.join('assets', 'icons'),
           },
           {
-            src: path.resolve('src/images/icon-manifest.png'),
+            src: path.resolve('src/images/logo.png'),
             size: '1024x1024',
             destination: path.join('assets', 'icons'),
             purpose: 'maskable',
