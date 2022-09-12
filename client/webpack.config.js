@@ -25,6 +25,7 @@ module.exports = () => {
       new HtmlWebpackPlugin({
         template: './index.html',
         title: 'Webpack Plugin',
+        favicon: './favicon.ico',
       }),
       new WebpackPwaManifest({
         name: 'Just Another Text Editor',
