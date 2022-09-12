@@ -21,6 +21,7 @@ Click either the `Install` button or the install icon in the browser address bar
 ## Usage
 
 App can be used in a browser or can be downloaded for use offline using the installation steps listed above.
+![screenshot](https://user-images.githubusercontent.com/103615812/189559891-7578a66f-90c6-4b44-a88a-54174d3c85f4.png)
 
 ## Credits
 
