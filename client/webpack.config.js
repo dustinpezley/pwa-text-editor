@@ -19,7 +19,7 @@ module.exports = () => {
     },
     plugins: [
       new InjectManifest({
-        swSrc: './src/sw.js',
+        swSrc: './src-sw.js',
         swDest: './service-worker.js',
       }),
       new HtmlWebpackPlugin({
